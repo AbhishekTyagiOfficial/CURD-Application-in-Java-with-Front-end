@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+.body {
+	background: linear-gradient(165deg, rgba(0,0,0,5) 10%, 
+	                                    rgba(255, 1, 0.6) 110%);
+}
+
+h2{
+    color: whitesmoke;
+}
+
+#frm {
+	color: white;
+	margin-top: 3em;
+	border-radius:20px;
+	box-shadow:0 10px 50px -6px white;
+}
+
+th {
+	color: white;
+}
+
+.input:hover {
+	background-color:#0000a0;
+}
+
+td {
+	color: white;
+	border: none;
+}
+
+#reset {
+	margin-left: 2em;
+}
+
+#showbtn {
+	margin-left: 21.6em;
+	
+}

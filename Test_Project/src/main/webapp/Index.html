@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+<link rel="stylesheet" href="css/custom.css"></link>
+</head>
+<style>
+
+</style>
+<body class="body">
+	<h2 class="text-center reg-frm">** Registration Form **</h2>
+	<form action="register" method="post" id="frm" class="container"
+		style="width: 50%">
+		<table class="table table-hover table-striped ">
+			<tr>
+				<th>Name</th>
+				<td><input type="text" name="name" required /></td>
+			</tr>
+
+			<tr>
+				<th>Email</th>
+				<td><input type="email" name="email" required /></td>
+			</tr>
+
+			<tr>
+				<th>Contact No</th>
+				<td><input type="text" name="contact" required /></td>
+			</tr>
+
+			<tr>
+				<th>Gender</th>
+				<td><input type="radio" name="gender" value="Male" /> Male <input
+					type="radio" name="gender" value="Female" /> Female</td>
+			</tr>
+
+			<tr>
+				<th>Qualification</th>
+				<td><input type="radio" name="qul" value="10th" /> 10th <input
+					type="radio" name="qul" value="12th" /> 12th <input type="radio"
+					name="qul" value="UG" /> UG <input type="radio" name="qul"
+					value="PG" /> PG <input type="radio" name="qul" value="PHD" />
+					PHD</td>
+			</tr>
+
+			<tr>
+				<th>Percentage</th>
+				<td><input type="text" name="per" required /></td>
+			</tr>
+
+
+			<tr>
+				<th>Certificate</th>
+				<td><input type="checkbox" name="cer" value="Web Development" />
+					Web Development <input type="checkbox" name="cer"
+					value="Frontend Development" /> Frontend Development <input
+					type="checkbox" name="cer" value="Backend Development" /> Backend
+					Development <input type="checkbox" name="cer"
+					value="FullStack Development" /> FullStack Development</td>
+			</tr>
+
+
+			<tr>
+				<th>City</th>
+				<td><select name="city" />
+					<option value="" selected">select your city</option>
+					<option value="Saharanpur">Saharanpur</option>
+					<option value="Dehradun">Dehradun</option>
+					<option value="Delhi">Delhi</option>
+					<option value="Yamunanagar">Yamunanagar</option>
+					<option value="Chandigrah">Chandigrah</option> </select></td>
+			</tr>
+
+			<tr>
+			</tr>
+
+
+		</table>
+		<button type="submit" class="btn btn-success">Register</button>
+		<button type="reset" class="btn btn-danger " id="reset">Cancel</button>
+		<a href="showdata"><button type="button" class="btn btn-primary"
+				id="showbtn">Show Data</button></a>
+	</form>
+</body>
+</html>
